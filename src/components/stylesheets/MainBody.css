@@ -1,0 +1,22 @@
+
+main {
+    background-color: var(--background-color);
+    font-size: 1.2rem;
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    gap: 10px; /* Optional: Add spacing between grid items */
+    height: 100%; /* Ensure it takes up available space */
+    width: 100%;
+    padding: 10px; /* Optional: Add padding */
+}
+
+main > article {
+    border: 1px solid var(--border-color); /* Optional: Add a border */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: white;
+}
