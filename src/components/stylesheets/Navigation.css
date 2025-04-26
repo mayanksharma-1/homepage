@@ -1,0 +1,25 @@
+
+nav{
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: row; 
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navbar-brand{
+    flex:2;
+    font-size: 1.7rem;
+}
+.navbar-menu{
+    flex: 1;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-section{
+    border-left: var(--border-color) solid 1px;
+}
