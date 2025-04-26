@@ -1,0 +1,15 @@
+:root{
+    --background-color: rgb(6,11,27);
+    --border-color: rgb(255, 255, 255, 0.1);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+}
