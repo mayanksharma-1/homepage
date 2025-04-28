@@ -20,11 +20,11 @@ main > article {
     color: white;
     opacity: 0; /* Start hidden */
     transform: translateX(100%); /* Start off-screen to the right */
-    animation: slideIn 0.5s ease-in-out forwards; /* Slide-in animation */
+    animation: slideIn 0.3s linear forwards; /* Faster and smoother slide-in animation */
 }
 
 main > article.fade-out {
-    animation: slideOut 0.5s ease-in-out forwards; /* Slide-out animation */
+    animation: slideOut 0.3s linear forwards; /* Faster and smoother slide-out animation */
 }
 
 @keyframes slideIn {
