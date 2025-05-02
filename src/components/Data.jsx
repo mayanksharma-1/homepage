@@ -1,6 +1,6 @@
 const data = [
   {
-    image: 'https://i.gyazo.com/384bf8f80cfa1e190ea3a23504d844e5.png',
+    image: 'https://i.gyazo.com/bd2c3be7fd2c655306b698dcc52222e0.png',
     title: 'Better Clipboard: Enhancing Chrome\'s Clipboard Functionality',
     text: `-Designed and implemented a Chrome extension using JavaScript, HTML, and CSS to enhance
 clipboard management. \n
