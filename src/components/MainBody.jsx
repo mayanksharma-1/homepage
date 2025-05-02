@@ -11,7 +11,7 @@ function MainBody() {
     setTimeout(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % data.length);
       setIsFading(false);
-    }, 500); // Match the animation duration
+    }, 300); // Match the animation duration
   };
 
   const handlePrev = () => {
@@ -19,7 +19,7 @@ function MainBody() {
     setTimeout(() => {
       setCurrentIndex((prevIndex) => (prevIndex - 1 + data.length) % data.length);
       setIsFading(false);
-    }, 500); // Match the animation duration
+    }, 300); // Match the animation duration
   };
 
   const { image, title, text } = data[currentIndex];
@@ -30,7 +30,7 @@ function MainBody() {
         <img src={image} alt="Placeholder" />
       </article>
       <article className={isFading ? 'fade-out' : 'fade-in'}>{text}</article>
-      <article className={isFading ? 'fade-out' : 'fade-in'}>{title}</article>
+      <article className={isFading ? 'fade-out' : 'fade-in'}><h2>{title}</h2></article>
       <section className="controls">
         <button onClick={handlePrev}>{'<'}</button>
         <button onClick={handleNext}>{'>'}</button>
