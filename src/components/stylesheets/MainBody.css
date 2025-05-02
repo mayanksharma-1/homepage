@@ -3,8 +3,8 @@ main {
     font-size: 1.2rem;
     flex-grow: 1;
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 2fr 1fr;
+    grid-template-columns: 2fr 1fr; /* Two columns */
+    grid-template-rows: auto 1fr; /* First row adapts to content, second row takes remaining space */
     gap: 10px;
     height: 100%;
     width: 100%;
@@ -18,9 +18,18 @@ main > article {
     align-items: center;
     font-size: 1rem;
     color: white;
-    opacity: 0; /* Start hidden */
-    transform: translateX(100%); /* Start off-screen to the right */
-    animation: slideIn 0.3s linear forwards; /* Faster and smoother slide-in animation */
+    overflow: hidden; /* Prevents content overflow */
+}
+
+main > article img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensures the image fills the space without distortion */
+    border-radius: 5px; /* Optional: Add rounded corners */
+}
+
+main > article:first-child {
+    aspect-ratio: 16 / 9; /* Maintain a 16:9 aspect ratio for the first grid cell */
 }
 
 main > article.fade-out {
