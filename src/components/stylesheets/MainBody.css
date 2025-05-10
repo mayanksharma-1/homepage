@@ -36,6 +36,15 @@ main > article.fade-out {
     animation: slideOut 0.3s linear forwards; /* Faster and smoother slide-out animation */
 }
 
+main > article .description {
+    white-space: pre-wrap;
+    font-size: 1.1rem; /* Slightly larger text */
+    line-height: 1.6; /* Improve readability */
+    color: var(--text-color, white); /* Use a variable for text color */
+    text-align: justify; /* Align text for better formatting */
+    padding: 10px; /* Add some padding around the text */
+}
+
 main .controls {
     display: flex;
     justify-content: center;

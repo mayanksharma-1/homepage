@@ -29,7 +29,9 @@ function MainBody() {
       <article className={isFading ? 'fade-out' : 'fade-in'}>
         <img src={image} alt="Placeholder" />
       </article>
-      <article className={isFading ? 'fade-out' : 'fade-in'}>{text}</article>
+      <article className={isFading ? 'fade-out' : 'fade-in'}>
+        <p className="description">{text}</p>
+      </article>
       <article className={isFading ? 'fade-out' : 'fade-in'}><h2>{title}</h2></article>
       <section className="controls">
         <button onClick={handlePrev}>{'<'}</button>
