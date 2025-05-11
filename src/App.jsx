@@ -1,15 +1,17 @@
-import  Navigation  from './components/Navigation'
-import MainBody from './components/MainBody';
+import React from 'react';
+import NavBar from './components/NavBar';
 import './App.css'
+import data from './components/Data'; 
+// import Carousel from './components/Carousel';
 
 function App() {
 
   return (
-    <>
-    <Navigation />
-    <MainBody />
-    </>
-  )
+    <div className="app-container">
+      <NavBar />
+      {/* <Carousel articles={data} /> */}
+    </div>
+  );
 }
 
 export default App;

@@ -1,20 +1,41 @@
-:root{
-    --background-color: rgb(6,11,27);
+:root {
+    --background-color: rgb(6, 11, 25);
     --border-color: rgb(255, 255, 255, 0.1);
-}
-*{
-    box-sizing: border-box;
-}
-#root{
+    --highlight-color: rgb(126, 87, 194);
+    --yt-color: rgb(229, 57, 53);
+  }
+  
+  body {
+    background-color: var(--background-color);
     display: flex;
     flex-direction: column;
     height: 100vh;
-}
-body{
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    margin: 0;
-    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
     overflow: hidden;
-}
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  h1, h2, h3, a, p, span {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    color: white;
+    margin: 0px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--highlight-color);
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+  }
