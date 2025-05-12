@@ -1,7 +1,7 @@
 const data = [
   {
     image: 'https://i.gyazo.com/bd2c3be7fd2c655306b698dcc52222e0.png',
-    title: 'Better Clipboard Chrome Extension',
+    title: 'Better Clipboard',
     text: `-Designed and implemented a Chrome extension using JavaScript, HTML, and CSS to enhance
 clipboard management. \n
 - Key features include capturing user-selected text, storing the three most recent snippets using
@@ -12,7 +12,7 @@ interaction.`,
   },
   {
     image: 'https://i.gyazo.com/031e6fb05cbbdc4c5fe0aa8c1c7fa249.png',
-    title: 'ShopAPI',
+    title: 'Shop-API',
     text: `-Built a backend API adhering to RESTful principles using Node.js, Express.js, and MongoDB. \n
 -The API provides comprehensive CRUD operations for efficient management of product \n
 -information, demonstrating skills in API design, server-side development, and database interactions.`,
