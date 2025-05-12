@@ -3,7 +3,7 @@ import React from 'react';
 const NavContact = () => {
   return (
     <div id="nav-contact-section" className="nav-section">
-      <a href="#">GET IN TOUCH</a>
+      <a href="mailto:as.mayanksharma@gmail.com">GET IN TOUCH</a>
     </div>
   );
 };
