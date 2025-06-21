@@ -1,12 +1,77 @@
-# React + Vite
+# Homepage Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal homepage built with **React** 
 
-Currently, two official plugins are available:
+**Live Demo:** [mayankwebsite.netlify.app](https://mayankwebsite.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[![Image from Gyazo](https://i.gyazo.com/4b1b763edf98a3193a4d8fca555aaace.jpg)](https://mayankwebsite.netlify.app/)
+---
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+.
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   ├── components/
+│   │   └── ... (NavBar, Carousel, etc.)
+│   └── components/stylesheets/
+├── package.json
+├── vite.config.js
+├── eslint.config.js
+└── README.md
+```
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18+ recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+```sh
+npm install
+```
+
+### Development
+
+```sh
+npm run dev
+```
+
+Visit [http://localhost:5173](http://localhost:5173) in your browser.
+
+### Build
+
+```sh
+npm run build
+```
+
+### Lint
+
+```sh
+npm run lint
+```
+
+## Customization
+
+- **Project Data:**  
+  Edit `src/components/Data.jsx` to add or update carousel projects.
+- **Styling:**  
+  Modify CSS in `src/App.css` and `src/components/stylesheets/`.
+- **Navigation:**  
+  Update navigation links in `src/components/NavLinks.jsx` and social/contact links in `src/components/NavSocial.jsx` and `src/components/NavContact.jsx`.
+
+## Deployment
+
+This site is deployed on [Netlify](https://www.netlify.com/).  
+To deploy your own version, connect your repository to Netlify and set the build command to `npm run build` and the publish directory to `dist`.
+
+---
+
+Built with ❤️ using [React](https://react.dev/)
